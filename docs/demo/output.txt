@@ -1,0 +1,4 @@
+Local Paddle webhook decoding, no billing request
+Decoded event: evt_demo / transaction.completed
+Invalid signature: Malformed Paddle-Signature header: missing ts
+Decoding alone is not signature verification. No payment created.

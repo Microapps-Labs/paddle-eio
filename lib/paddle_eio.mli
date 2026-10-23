@@ -133,8 +133,8 @@ val cancel_transaction :
   transaction_id:string ->
   (transaction_state, error) result
 (** Cancels a transaction by setting its status to [Canceled]. This function
-    makes one HTTP request and never retries the mutation. Paddle rejects this
-    transition for non-cancelable states such as [Draft]. A successful response
+    makes one HTTP request and never retries the mutation. Cancellation eligibility depends on the provider state and origin rules;
+    this client does not decide which provider transactions are cancelable. A successful response
     is rejected unless its id matches [transaction_id], its status is
     [Canceled], and custom data is an object or null. *)
 

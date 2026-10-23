@@ -4,9 +4,9 @@ description: "A small typed Paddle Billing REST and webhook boundary for Eio app
 maintainer: "Poster contributors"
 authors: "Poster contributors"
 license: "MIT"
-homepage: "https://github.com/OlegHQ/paddle-eio"
-bug-reports: "https://github.com/OlegHQ/paddle-eio/issues"
-dev-repo: "git+https://github.com/OlegHQ/paddle-eio.git"
+homepage: "https://github.com/Microapps-Labs/paddle-eio"
+bug-reports: "https://github.com/Microapps-Labs/paddle-eio/issues"
+dev-repo: "git+https://github.com/Microapps-Labs/paddle-eio.git"
 depends: [
   "ocaml" {>= "5.2"}
   "dune" {>= "3.12"}
